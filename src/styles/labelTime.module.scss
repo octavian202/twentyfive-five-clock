@@ -1,0 +1,27 @@
+.container {
+  flex: 1;
+  margin: 0 auto;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  width: min-content;
+  margin: 0 auto;
+
+  h3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  outline-width: 0;
+  font-size: 1.2rem;
+
+  &:active {
+    color: gray;
+  }
+}
